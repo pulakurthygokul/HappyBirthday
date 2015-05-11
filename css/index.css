@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#step1 {
+    border-width: 10px;
+    border-image: url(../img/border.jpg) 100 100 round;
+    -webkit-border-image: url(../img/border.jpg) 100 100 round;
+}
+h2 {
+    font-size: 60px;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+#btn1 {
+    font-size: 33px;
+    margin: 15px 0px 50px 200px;
+    color: white;
+    background-color: #5bb75b;
+    border-width: 5px;
+    border-color: rgba(51, 51, 51, 0.31);
+    border-radius: 20%;
+}
+#step2 {
+    display: none;
+    background-color: #567ECF;
+    border-width: 10px;
+    border-image: url(../img/border.jpg) 100 100 round;
+    -webkit-border-image: url(../img/border.jpg) 100 100 round;
+}
+#text {
+    font-size: 25px;
+    color: white;
+    line-height: 110%;
+    text-decoration: underline;
+}
+#pic {
+    margin-bottom: 10px;
+}
